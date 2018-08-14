@@ -22,11 +22,11 @@
     [super viewDidLoad];
     _scrollView = [[XLScrollView alloc] initWithFrame:CGRectZero];
     _scrollView.contentSize = CGSizeMake(0, 1024);
-  //  [self.view addSubview:_scrollView];
+    [self.view addSubview:_scrollView];
     
     _sysScrollView = [[UIScrollView alloc] initWithFrame:CGRectZero];
     _sysScrollView.contentSize = CGSizeMake(0, 1024);
-    [self.view addSubview:_sysScrollView];
+ //   [self.view addSubview:_sysScrollView];
     _sysScrollView.delegate = self;
 }
 
