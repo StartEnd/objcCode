@@ -40,4 +40,8 @@
 @property (nullable, nonatomic, weak) id<XLTableViewDelegate>     delegate;
 
 
+- (void)reloadData;
+
+- (XLTableViewCell *)dequeueReuseableCell;
+
 @end
